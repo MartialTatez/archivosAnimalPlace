@@ -75,9 +75,9 @@
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 .login-tm {
-    background: url('/imagenes/fondo2.jpg') no-repeat center center fixed; /* Ruta relativa a la carpeta wwwroot */
+    background: url('https://raw.githubusercontent.com/MartialTatez/archivosAnimalPlace/main/Archivos/imagenes/fondo2.jpg') no-repeat center center fixed; /* Ruta relativa a la carpeta wwwroot */
     background-size: cover;
-    color: white; /* Puedes cambiar el color del texto según tus preferencias */
+    color: white; /* Puedes cambiar el color del texto segÃºn tus preferencias */
     height: 100vh; /* Ajusta la altura al 100% de la ventana */
     margin: 0; /* Elimina el margen predeterminado para que la imagen ocupe toda la pantalla */
     display: flex;
@@ -109,15 +109,15 @@
 }
 
 #collapseOne .accordion-button {
-    background-color: #007bff; /* Color del primer botón */
+    background-color: #007bff; /* Color del primer botÃ³n */
 }
 
 #collapseTwo .accordion-button {
-    background-color: #28a745; /* Color del segundo botón */
+    background-color: #28a745; /* Color del segundo botÃ³n */
 }
 
 #collapseThree .accordion-button {
-    background-color: #dc3545; /* Color del tercer botón */
+    background-color: #dc3545; /* Color del tercer botÃ³n */
 }
 
 .sintomas-header {
@@ -475,20 +475,20 @@ footer .login {
 }*/
 #icon {
     width: 160px; /* Ancho deseado */
-    height: auto; /* Altura ajustada automáticamente para mantener la proporción */
+    height: auto; /* Altura ajustada automÃ¡ticamente para mantener la proporciÃ³n */
 }
 
 #btnCerrar {
     position: fixed;
     top: 10px;
     right: 10px;
-    z-index: 9999; /* Asegura que el botón esté por encima de otros elementos */
+    z-index: 9999; /* Asegura que el botÃ³n estÃ© por encima de otros elementos */
 }
 
 #tablaMascotas {
     border-collapse: collapse;
     width: 100%;
-    margin-top: 20px; /* Añadir espacio superior a la tabla */
+    margin-top: 20px; /* AÃ±adir espacio superior a la tabla */
 }
 
     #tablaMascotas th,
@@ -513,7 +513,7 @@ footer .login {
     }
 
     #tablaMascotas tbody tr:hover {
-        background-color: #D4E2F9; /* Resalta la fila al pasar el ratón */
+        background-color: #D4E2F9; /* Resalta la fila al pasar el ratÃ³n */
     }
 
     #tablaMascotas .btn {
@@ -528,7 +528,7 @@ footer .login {
 #tablaDiagnostico {
     border-collapse: collapse;
     width: 100%;
-    margin-top: 20px; /* Añadir espacio superior a la tabla */
+    margin-top: 20px; /* AÃ±adir espacio superior a la tabla */
 }
 
     #tablaDiagnostico th,
@@ -553,7 +553,7 @@ footer .login {
     }
 
     #tablaDiagnostico tbody tr:hover {
-        background-color: #D4E2F9; /* Resalta la fila al pasar el ratón */
+        background-color: #D4E2F9; /* Resalta la fila al pasar el ratÃ³n */
     }
 
     #tablaDiagnostico .btn {
@@ -568,7 +568,7 @@ footer .login {
 #tablaLlantas {
     border-collapse: collapse;
     width: 100%;
-    margin-top: 20px; /* Añadir espacio superior a la tabla */
+    margin-top: 20px; /* AÃ±adir espacio superior a la tabla */
 }
 
     #tablaLlantas th,
@@ -593,7 +593,7 @@ footer .login {
     }
 
     #tablaLlantas tbody tr:hover {
-        background-color: #D4E2F9; /* Resalta la fila al pasar el ratón */
+        background-color: #D4E2F9; /* Resalta la fila al pasar el ratÃ³n */
     }
 
     #tablaLlantas .btn {
@@ -667,7 +667,7 @@ footer .login {
 
 .loading {
     color: white;
-    font-size: 20px; /* Puedes ajustar el tamaño de la fuente según tus preferencias */
+    font-size: 20px; /* Puedes ajustar el tamaÃ±o de la fuente segÃºn tus preferencias */
     font-weight: bold; /* Hace que el texto sea negrita */
     /*background: black;*/ /* Establece el fondo blanco */
     /*opacity: 0.5;*/
@@ -830,36 +830,36 @@ TMSDivButtomSelected {
     display: block;
     color: white
 }
-/* Estilo para el menú desplegable */
+/* Estilo para el menÃº desplegable */
 .offcanvas {
-    /* Agrega estilos personalizados según tus preferencias */
+    /* Agrega estilos personalizados segÃºn tus preferencias */
     background-color: #f8f9fa;
     color: #212529;
-    /* Agrega más estilos según sea necesario */
+    /* Agrega mÃ¡s estilos segÃºn sea necesario */
 }
 
-/* Aplicar la fuente Quicksand a tu menú desplegable y elementos del menú */
+/* Aplicar la fuente Quicksand a tu menÃº desplegable y elementos del menÃº */
 body, .offcanvas, .offcanvas-body ul.dropdown-menu li a {
     font-family: 'Quicksand', sans-serif;
 }
-/* Agregar efectos de transición al menú desplegable */
-/* Estilo para el menú desplegable */
+/* Agregar efectos de transiciÃ³n al menÃº desplegable */
+/* Estilo para el menÃº desplegable */
 .offcanvas {
-    background-color: #f8f9fa; /* Color de fondo del menú */
-    color: #212529; /* Color del texto del menú */
-    transition: transform 0.3s ease-in-out; /* Transición suave en la propiedad transform */
+    background-color: #f8f9fa; /* Color de fondo del menÃº */
+    color: #212529; /* Color del texto del menÃº */
+    transition: transform 0.3s ease-in-out; /* TransiciÃ³n suave en la propiedad transform */
 }
 
-/* Estilo para los elementos del menú */
+/* Estilo para los elementos del menÃº */
 .offcanvas-body ul.dropdown-menu li a {
     font-family: 'Quicksand', sans-serif;
     font-size: 14px;
-    transition: color 0.3s ease-in-out; /* Transición suave en el color del texto */
+    transition: color 0.3s ease-in-out; /* TransiciÃ³n suave en el color del texto */
 }
 
-    /* Cambio de color al pasar el ratón sobre los elementos del menú */
+    /* Cambio de color al pasar el ratÃ³n sobre los elementos del menÃº */
     .offcanvas-body ul.dropdown-menu li a:hover {
-        color: #007bff; /* Cambia a un color diferente al pasar el ratón */
+        color: #007bff; /* Cambia a un color diferente al pasar el ratÃ³n */
     }
 
 
@@ -876,9 +876,9 @@ body, .offcanvas, .offcanvas-body ul.dropdown-menu li a {
 
 .navbar-brand {
     font-family: 'Alfa Slab One' !important;
-    font-size: 24px; /* Tamaño de fuente según tus preferencias */
+    font-size: 24px; /* TamaÃ±o de fuente segÃºn tus preferencias */
     color: #ffffff; /* Color del texto */
-    /* Puedes agregar más estilos según tus preferencias */
+    /* Puedes agregar mÃ¡s estilos segÃºn tus preferencias */
 }
 
 .navbar-light .container a, .navbar-light .container .collapse .navbar-nav .nav-item .nav-link {
@@ -1008,14 +1008,14 @@ footer.footer .social-link {
     background-color: #333;
     padding-top: 20px;
     color: white;
-    transition: left 0.6s; /* Agregar transición para una animación suave */
+    transition: left 0.6s; /* Agregar transiciÃ³n para una animaciÃ³n suave */
 }
 
     #sidebar.active {
         left: 0;
     }
 
-/* Estilo del botón para abrir el sidebar */
+/* Estilo del botÃ³n para abrir el sidebar */
 #sidebarCollapse {
     position: fixed;
     left: 20px;
@@ -1032,7 +1032,7 @@ footer.footer .social-link {
     }
 /* Estilos para los temas principales (ahora son enlaces) */
 .list-unstyled.components li .main-topic {
-    font-size: 20px; /* Tamaño de la letra más grande para los temas principales */
+    font-size: 20px; /* TamaÃ±o de la letra mÃ¡s grande para los temas principales */
     margin-bottom: 10px;
     display: block; /* Hacer que los enlaces ocupen todo el espacio del li */
 
@@ -1046,7 +1046,7 @@ footer.footer .social-link {
 }
 
 .list-unstyled.sub-components li a {
-    font-size: 16px; /* Tamaño de la letra un poco más pequeña para los subtemas */
+    font-size: 16px; /* TamaÃ±o de la letra un poco mÃ¡s pequeÃ±a para los subtemas */
     margin-bottom: 5px;
     margin-left: 25px;
 }
@@ -1070,23 +1070,23 @@ footer.footer .social-link {
     position: fixed;
     top: 10px;
     right: 10px;
-    z-index: 9999; /* Asegura que el botón esté por encima de otros elementos */
+    z-index: 9999; /* Asegura que el botÃ³n estÃ© por encima de otros elementos */
 }
 
 .precision-container {
     display: flex;
     align-items: center;
-    justify-content: center; /* Añadido para centrar horizontalmente */
+    justify-content: center; /* AÃ±adido para centrar horizontalmente */
 }
 
 .precision {
     position: relative;
-    height: 150px; /* Altura del círculo */
-    width: 150px; /* Ancho del círculo */
+    height: 150px; /* Altura del cÃ­rculo */
+    width: 150px; /* Ancho del cÃ­rculo */
     background: conic-gradient(#3498db 0%, #3498db var(--porcentaje), transparent var(--porcentaje) 100%);
     border-radius: 50%;
     overflow: hidden;
-    border: 5px solid blue; /* Borde azul de 5 píxeles */
+    border: 5px solid blue; /* Borde azul de 5 pÃ­xeles */
 }
 
 .circleContent {
